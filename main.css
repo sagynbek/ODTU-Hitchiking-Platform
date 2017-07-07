@@ -1,0 +1,263 @@
+a{
+	text-decoration:none;
+	color:red
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.signup{
+    text-decoration:none;
+	color:white;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+body {
+    background-image: url('images/bg.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+p {
+    line-height: 14px;
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+#wrapper {
+    width: 776px;
+    height: auto;
+    margin: 24px auto 0 auto;
+    padding: 0;
+    padding-bottom: -24px;
+}
+
+#headerDiv {
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    background-color: rgb(220, 220, 220);
+    padding: 0 24px;
+    width: 728px;
+    height: 116px;
+    text-align: center;
+}
+
+#topMenuDiv {
+    background-color: rgb(150, 0, 0);
+    padding: 0 24px;
+    width: 728px;
+    height: 36px;
+    font-size: 14px;
+}
+
+#topMenuDiv > nav > ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: -24px;
+    padding: 0;
+    position: absolute;
+}
+
+#topMenuDiv > nav > ul > li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#topMenuDiv > nav > ul > li > a {
+    display: block;
+    width: 153px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: whitesmoke;
+    background: rgb(207, 1, 1);
+    text-decoration: none;
+}
+
+#topMenuDiv > nav > ul > li:hover a {
+    background: rgb(60, 60, 60);
+}
+
+#searchbox {
+    margin: auto 10px;
+    width: 134px;
+    padding: 7.5px;
+    margin-left: 0;
+    background: rgb(207, 1, 1);
+    border: none;
+    margin-top: -4px;
+}
+
+#search {
+    width: 120px;
+    border: none;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+#submit {
+    width: 16px;
+    height: 16px;
+    margin-left: -20px;
+    vertical-align: middle;
+    padding-top: 2px;
+    margin-bottom: 3px;
+    opacity: .5;
+    background: url("images/search.png");
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+#contentDiv {
+    background-color: rgb(220, 220, 220);
+    padding: 12px 0 24px 0;
+    width: 776px;
+    float: left;
+}
+
+#footerDiv {
+    background-color: rgb(80, 80, 80);
+    height: 42px;
+    text-align: center;
+    width: 100%;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    float: left;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+#footerDiv footer {
+    margin-top: 15px;
+}
+
+#mainHeader h2 {
+    padding: 24px 0 2px 0;
+    margin: 0;
+    font-size: 28px;
+    color: rgb(150, 0, 0);
+    border-bottom: 2px solid black;
+    width: 460px;
+    margin: auto;
+}
+
+#mainHeader h1 {
+    padding: 3px 0;
+    font-size: 32px;
+    width: 460px;
+    color: rgb(150, 0, 0);
+    margin: auto;
+}
+
+#leftMenuDiv {
+    margin: 10px;
+    border-radius: 12px;
+    padding: 23px 10px;
+    width: 112.6px;
+    vertical-align: top;
+    background-color: rgb(100, 100, 100);
+    border: 1px solid rgb(10, 10, 10);
+    float: left;
+    color: whitesmoke;
+}
+
+#leftMenuDiv h3 {
+    border-bottom: 1px solid black;
+}
+
+#loginForm {
+    font-size: 14px;
+}
+
+#userName,
+#passWord {
+    width: 96%;
+    line-height: 16px;
+    margin-bottom: 4px;
+}
+
+#login {
+    width: 50px;
+}
+
+#articleDiv {
+    margin: 10px;
+    border-radius: 12px;
+    width: 408px;
+    background-color: rgb(200, 200, 200);
+    border: 1px solid rgb(100, 100, 100);
+    vertical-align: top;
+    padding: 18px;
+    float: left;
+}
+
+#rightMenuDiv {
+    margin: 10px;
+    border-radius: 12px;
+    padding: 23px 10px;
+    width: 112.6px;
+    background-color: rgb(100, 100, 100);
+    border: 1px solid rgb(10, 10, 10);
+    vertical-align: top;
+    float: left;
+    color: whitesmoke;
+}
+
+#rightMenuDiv h3 {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#rightMenuDiv p {
+    text-align: center;
+    font-size: 13px;
+}
+
+#mainFooter {}
+
+#leftNav {}
+
+#leftNav li {
+    list-style: none;
+}
+
+#leftNav a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#leftNav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+#contentArticle {}
+
+#contentHeader {}
+
+#contentHeader h2 {
+    border-bottom: 2px solid black;
+}
+
+#contentSection {
+    text-align: justify;
+}
+
+#contentFooter {
+    text-align: right;
+}
